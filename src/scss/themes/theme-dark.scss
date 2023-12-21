@@ -1,0 +1,140 @@
+body[data-theme="dark"] {  
+
+   @import '../src/scss/dark-slider.scss';
+
+   .slider-tab {
+      background-color: #8C8C8C;
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: white;
+      opacity: 0.5;
+   }
+
+   .slider-image {
+      border: 5px solid #8C8C8C;
+   }
+
+   .language {
+      background-color: #353535;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #918e97;
+      color: white;
+   }
+
+   header {
+      background-color: #494949;
+      h1 {
+         color: white;
+      }
+   }
+
+   #about {
+      background-color: #353535;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #6d6d6d;
+      }
+      .card {
+         background: #6d6d6d;
+         color: white;
+      }
+   }
+
+   #portfolio {
+      background: rgb(55,35,42);
+background: linear-gradient(52deg, rgba(55,35,42,1) 4%, rgba(210,78,124,1) 54%, rgba(162,1,57,1) 96%);
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
+   #resume {
+      background: rgb(55,35,42);
+background: linear-gradient(52deg, rgba(55,35,42,1) 4%, rgba(210,78,124,1) 54%, rgba(162,1,57,1) 96%);
+      .section-title {
+         color: white !important;
+      }
+
+      .experience-badge {
+         background: #EECAD6 !important;
+         color: black;
+      }
+
+      .main-badge {
+         background: #B85947 !important;
+      }
+
+      .vertical-timeline-element-date {
+         color: white;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #B85947 !important;
+      }
+      
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: black;
+         }
+      }
+   }
+
+   footer {
+      background: #353535;
+      min-height: 100px;
+      width: 100%;
+      overflow: hidden;
+      font-size: 14px;
+      color: white;
+      position: relative;
+      text-align: center;
+   }
+   .iconss i{
+      color: white;
+   }
+   #skills {
+      background: #353535;
+      min-height: 200px;
+      width: 100%;
+      overflow: hidden;
+      padding-bottom: 10%;
+      .skills-tile {
+         background-color: #6D6D6D;
+         padding: 10px 10px 5px 10px;
+         width: 100px;
+         margin: 5px 0 5px 0;
+         border-radius: 8px;
+      }
+      .skills-title{
+         color: white;
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #5b5b5b;
+      color: white;
+   }
+
+   .close-icon {
+      color: white;
+   }
+}
